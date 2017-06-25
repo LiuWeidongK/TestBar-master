@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_on"
+        android:icon="@drawable/ic_action_voiceon"
+        android:orderInCategory="1"
+        android:title="@string/on"
+        android:visible="false"
+        app:showAsAction="always|always" />
+
+    <item
+        android:id="@+id/action_off"
+        android:icon="@drawable/ic_action_voiceoff"
+        android:orderInCategory="1"
+        android:title="@string/off"
+        app:showAsAction="always|always" />
+
+    <item
+        android:id="@+id/action_set"
+        android:icon="@drawable/ic_action_more"
+        android:orderInCategory="1"
+        android:title="@string/set"
+        app:showAsAction="always|always" />
+</menu>
